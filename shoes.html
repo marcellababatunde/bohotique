@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Bohotique: Dresses</title>
+<link rel="icon" href="img/fav.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/cart.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+
+<body onload="loadCart()">
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="full">
+                <h1><img src="img/logo2.png"></h1>
+            </div>
+        </div>
+            <!-- begin cart link widget -->
+        <div class="row">    
+            <div class="full">
+            <div id="cart_links">
+                <a href="my_cart.html"><img class="cart_icon" src="img/bag.tb.png" alt="cart icon" /></a>
+                <span class="cart_link"><a id="cart_link" href="my_cart.html">Shopping Cart</a></span> <br />
+                <span class="item_count">Items (<span id="item_count">0</span>)</span>
+                <span class="checkout_link"><a id="checkout_link" href="my_cart.html">Checkout</a></span>
+            </div>
+            </div>
+            <!-- end widget -->
+        </div>
+    </div>
+      
+
+ <nav class="navbar">
+    <div class="container">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dresses.html">Dresses</a></li>
+        <li><a href="shorts.html">Shorts</a></li>
+        <li><a href="shirts.html">Shirts</a></li>
+        <li><a href="shoes.html">Shoes</a></li>
+        </ul>
+        </div>
+    </nav>             
+</header>       
+
+<div class="container">
+    <div class="row">
+        <div class="one-half">
+            <img src="img/shoes/shoe1.jpg">
+            <p>Brown Suede Fringe</p>
+            <p>$28.00</p>
+            <select onchange="setChoice(this, '100751')">
+                <option value="">Select a size...</option>
+                <option value="100751-6">6</option>
+                <option value="100751-7">7</option>
+                <option value="100751-8">8</option>
+              </select>
+              <input id="100751" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+        <img src="img/shoes/shoe2.jpg">
+        <p>Pink Beaded Sandals</p>
+        <p>$24.00</p>
+        <select onchange="setChoice(this, '100752')">
+                <option value="">Select a size...</option>
+                <option value="100752-6">6</option>
+                <option value="100752-7">7</option>
+                <option value="100752-8">8</option>
+              </select>
+              <input id="100752" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="one-half">
+            <img src="img/shoes/shoe3.jpg">
+            <p>Camal Lace Up Ankel Boots</p>
+            <p>$26.00</p>
+            <select onchange="setChoice(this, '100753')">
+                <option value="">Select a size...</option>
+                <option value="100753-6">6</option>
+                <option value="100753-7">7</option>
+                <option value="100753-8">8</option>
+              </select>
+              <input id="100753" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+            <img src="img/shoes/shoe4.jpg">
+            <p>Brown and Blue Beaded Sandals</p>
+            <p>$26.00</p>
+            <select onchange="setChoice(this, '100754')">
+                <option value="">Select a size...</option>
+                <option value="100754-6">6</option>
+                <option value="100754-7">7</option>
+                <option value="100754-8">8</option>
+              </select>
+              <input id="100754" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="one-half">
+            <img src="img/shoes/shoe5.jpg">
+            <p>Pattern Beaded Sandals</p>
+            <p>$22.00</p>
+            <select onchange="setChoice(this, '100755')">
+                <option value="">Select a size...</option>
+                <option value="100755-6">6</option>
+                <option value="100755-7">7</option>
+                <option value="100755-8">8</option>
+              </select>
+              <input id="100755" type="button" value="Add to Cart" disabled>
+        </div>
+        <div class="one-half">
+            <img src="img/shopshoes.tb.tb.jpg">
+            <p>Ankel Boots</p>
+            <p>$28.00</p>
+            <select onchange="setChoice(this, '100756')">
+                <option vale="">Select a size...</option>
+                <option value="100756-6">6</option>
+                <option value="100756-7">7</option>
+                <option value="100756-8">8</option>
+              </select>
+              <input id="100756" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+</div>    
+
+<footer>  
+    
+<div class="container">
+        
+    <div class="row">
+        <div class="one-half">
+            <h2>Hours</h2>
+            <h4>Monday - Saturday</h4>
+            <p>8:00 a.m. - 8:00 p.m.</p>
+            <h4>Sunday</h4>
+            <p>11:30 a.m. - 6:00 p.m.</p>
+        </div><!-- closes 1/3 -->
+              
+        <div class="one-half">
+            <h2>Follow Us!</h2>
+            <a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="img/instagram.png"></a><br>
+            <a href="https://www.pinterest.com/"><img src="img/pinterest.png"></a>
+            <a href="https://twitter.com/?lang=en"><img src="img/twitter.png"></a>
+        </div><!-- closes 1/2 -->
+    </div>
+    
+    <div class ="row">
+    
+        <div class="one-fourth">
+            <h2>Company</h2>
+                <ul>
+                    <li><a href="#">Upcoming Sales</a></li>
+                    <li><a href="#">Find a Boutique</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                </ul>
+        </div>
+        <div class="one-fourth">
+            <h2>Website</h2>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Ordering and Payment</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+        </div>
+        <div class="one-fourth">
+            <h2>Contact Us</h2>
+            <h4>Phone</h4>
+            <p>(206) 333-1234</p>
+        </div>
+        <div class="one-fourth">
+            <h2>Locations</h2>
+                <ul>
+                    <li>Greenville, South Carolina</li>
+                    <li>Atlanta, Georgia</li>
+                    <li>Charlotte, North Carolina</li>
+                    <li>Jacksonville, Florida</li>
+                </ul>
+        </div>
+    </div>
+            
+    <div class="row">
+        <div class="one-third">
+        </div>
+        <div class="one-third">
+            <p>Site Design by: Marcella B.</p>
+        </div>
+        <div class="one-third">
+        </div>
+    </div>
+</div>
+</footer> 
+
+
+<!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/cart.js"></script>
+
+<script>
+$('#my-carousel').owlCarousel({
+   items : 1,
+   margin : 10,
+   loop : true,
+   autoplay : true,
+   autoplayHoverPause : true,
+   autoplayTimeout : 4000,
+   dots : true,
+   nav : true,
+   slideBy : 2
+})
+</script>
+
+</body>
+</html>

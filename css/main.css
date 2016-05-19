@@ -1,0 +1,162 @@
+/*** sectioning elements ***/
+
+img {
+    max-width: 100%;
+}
+body {
+background-color: #f4d7e3;
+}
+
+header {
+background-color: #ffffff;
+}
+
+main {
+    /* I wouldn't recommend applying any styles to this
+       section as the 'main' element is not supported
+       in all browsers yet. */
+}
+
+footer {
+background-color: #ffffff;
+}
+
+/* nav styles */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00a79d;
+}
+
+nav li {
+    border-right: 1px solid #f4d7e3;
+    width: 33.33333%;
+}
+
+nav li:last-child {
+    border: none;
+}
+
+
+nav a:link, nav a:visited {
+    display: block;
+    padding: 5px 10px 5px 10px;
+
+    color: #f4d7e3;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav a:hover, nav a:active {
+    background-color: #f4d7e3;
+    color: #000d1a;
+}
+
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** base styles ***/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+	
+}
+
+
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+
+/*** form styles (coming soon) ***/
