@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Bohotique: Dresses</title>
+<link rel="icon" href="img/fav.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/cart.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+
+<body onload="loadCart()">
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="full">
+                <h1><img src="img/logo3.png"></h1>
+            </div>
+        </div>
+            <!-- begin cart link widget -->
+        <div class="row">    
+            <div class="full">
+            <div id="cart_links">
+                <a href="my_cart.html"><img class="cart_icon" src="img/bag.tb.png" alt="cart icon" /></a>
+                <span class="cart_link"><a id="cart_link" href="my_cart.html">Shopping Cart</a></span> <br />
+                <span class="item_count">Items (<span id="item_count">0</span>)</span>
+                <span class="checkout_link"><a id="checkout_link" href="my_cart.html">Checkout</a></span>
+            </div>
+            </div>
+            <!-- end widget -->
+        </div>
+    </div>
+      
+
+ <nav class="navbar">
+    <div class="container">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dresses.html">Dresses</a></li>
+        <li><a href="shorts.html">Shorts</a></li>
+        <li><a href="shirts.html">Shirts</a></li>
+        <li><a href="shoes.html">Shoes</a></li>
+        </ul>
+        </div>
+    </nav>             
+</header>      
+
+<div class="container">
+    <div class="row">
+        <div class="one-half">
+            <img src="img/dresses/dress1.tb.jpg">
+            <p>Floral Flowey Dress</p>
+            <p>$45.00</p>
+            <select onchange="setChoice(this, '100451')">
+                <option value="">Select a size...</option>
+                <option value="100451-small">Small</option>
+                <option value="100451-medium">Medium</option>
+                <option value="100451-large">Large</option>
+              </select>
+              <input id="100451" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+        <img src="img/dresses/dress2.tb.jpg">
+        <p>Purple Aztec Dress</p>
+        <p>$40.00</p>
+        <select onchange="setChoice(this, '100452')">
+                <option value="">Select a size...</option>
+                <option value="100452-small">Small</option>
+                <option value="100452-medium">Medium</option>
+                <option value="100452-large">Large</option>
+              </select>
+              <input id="100452" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="one-half">
+            <img src="img/dresses/dress3.tb.jpg">
+            <p>Black Lace Dress</p>
+            <p>$52.00</p>
+            <select onchange="setChoice(this, '100453')">
+                <option value="">Select a size...</option>
+                <option value="100453-small">Small</option>
+                <option value="100453-medium">Medium</option>
+                <option value="100453-large">Large</option>
+              </select>
+              <input id="100453" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+            <img src="img/dresses/dress4.tb.jpg">
+            <p>Rainbow Tribal Print</p>
+            <p>$48.00</p>
+            <select onchange="setChoice(this, '100454')">
+                <option value="">Select a size...</option>
+                <option value="100454-small">Small</option>
+                <option value="100454-medium">Medium</option>
+                <option value="100454-large">Large</option>
+              </select>
+              <input id="100454" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="one-half">
+            <img src="img/dresses/dress5.tb.jpg">
+            <p>Lazy-day T-shirt Dress</p>
+            <p>$40.00</p>
+            <select onchange="setChoice(this, '100455')">
+                <option value="">Select a size...</option>
+                <option value="100455-small">Small</option>
+                <option value="100455-medium">Medium</option>
+                <option value="100455-large">Large</option>
+              </select>
+              <input id="100455" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+            <img src="img/dresses/dress6.tb.jpg">
+            <p>Cody Printed Dress</p>
+            <p>$45.00</p>
+            <select onchange="setChoice(this, '100456')">
+                <option value="">Select a size...</option>
+                <option value="100456-small">Small</option>
+                <option value="100456-medium">Medium</option>
+                <option value="100456-large">Large</option>
+              </select>
+              <input id="100456" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="one-half">
+            <img src="img/dresses/dress7.tb.jpg">
+            <p>Mint Midi Dress</p>
+            <p>$55.00</p>
+            <select onchange="setChoice(this, '100457')">
+                <option value="">Select a size...</option>
+                <option value="100457-small">Small</option>
+                <option value="100457-medium">Medium</option>
+                <option value="100457-large">Large</option>
+              </select>
+              <input id="100457" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+            <img src="img/dresses/dress8.tb.jpg">
+            <p>Autumn Maxi Dress</p>
+            <p>$60.00</p>
+            <select onchange="setChoice(this, '100458')">
+                <option value="">Select a size...</option>
+                <option value="100458-small">Small</option>
+                <option value="100458-medium">Medium</option>
+                <option value="100458-large">Large</option>
+              </select>
+              <input id="100458" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="one-half">
+            <img src="img/dresses/dress9.tb.jpg">
+            <p>Tribal Maxi Dress</p>
+            <p>$58.00</p>
+            <select onchange="setChoice(this, '100459')">
+                <option value="">Select a size...</option>
+                <option value="100459-small">Small</option>
+                <option value="100459-medium">Medium</option>
+                <option value="100459-large">Large</option>
+              </select>
+              <input id="100459" type="button" value="Add to Cart" disabled>
+        </div>
+        
+        <div class="one-half">
+            <img src="img/dresses/dress10.tb.jpg">
+            <p>Floral Shift Dress</p>
+            <p>$40.00</p>
+            <select onchange="setChoice(this, '1004510')">
+                <option value="">Select a size...</option>
+                <option value="1004510-small">Small</option>
+                <option value="1004510-medium">Medium</option>
+                <option value="1004510-large">Large</option>
+              </select>
+              <input id="1004510" type="button" value="Add to Cart" disabled>
+        </div>
+    </div>
+</div>    
+
+<footer>  
+    
+<div class="container">
+        
+    <div class="row">
+        <div class="one-half">
+            <h2>Hours</h2>
+            <h4>Monday - Saturday</h4>
+            <p>8:00 a.m. - 8:00 p.m.</p>
+            <h4>Sunday</h4>
+            <p>11:30 a.m. - 6:00 p.m.</p>
+        </div><!-- closes 1/3 -->
+              
+        <div class="one-half">
+            <h2>Follow Us!</h2>
+            <a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="img/instagram.png"></a><br>
+            <a href="https://www.pinterest.com/"><img src="img/pinterest.png"></a>
+            <a href="https://twitter.com/?lang=en"><img src="img/twitter.png"></a>
+        </div><!-- closes 1/2 -->
+    </div>
+    
+    <div class ="row">
+    
+        <div class="one-fourth">
+            <h2>Company</h2>
+                <ul>
+                    <li><a href="#">Upcoming Sales</a></li>
+                    <li><a href="#">Find a Boutique</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                </ul>
+        </div>
+        <div class="one-fourth">
+            <h2>Website</h2>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Ordering and Payment</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+        </div>
+        <div class="one-fourth">
+            <h2>Contact Us</h2>
+            <h4>Phone</h4>
+            <p>(206) 333-1234</p>
+        </div>
+        <div class="one-fourth">
+            <h2>Locations</h2>
+                <ul>
+                    <li>Greenville, South Carolina</li>
+                    <li>Atlanta, Georgia</li>
+                    <li>Charlotte, North Carolina</li>
+                    <li>Jacksonville, Florida</li>
+                </ul>
+        </div>
+    </div>
+            
+    <div class="row">
+        <div class="one-third">
+        </div>
+        <div class="one-third">
+            <p>Site Design by: Marcella B.</p>
+        </div>
+        <div class="one-third">
+        </div>
+    </div>
+</div>
+</footer> 
+
+
+<!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/cart.js"></script>
+
+<script>
+$('#my-carousel').owlCarousel({
+   items : 1,
+   margin : 10,
+   loop : true,
+   autoplay : true,
+   autoplayHoverPause : true,
+   autoplayTimeout : 4000,
+   dots : true,
+   nav : true,
+   slideBy : 2
+})
+</script>
+
+</body>
+</html>
